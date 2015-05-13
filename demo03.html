@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=640px, user-scalable=no" />
+<meta name="format-detection" content="telephone=no"/>
+<title>demo_03</title>
+<link rel="stylesheet" type="text/css" href="Public/css/app.zebra.css">
+<link rel="stylesheet" type="text/css" href="Public/css/bosch.zebra.css">
+
+<script data-main="Public/lib/app.document" src="Public/lib/loader/require.js"></script>
+<style>
+	#a{width:50px; height:50px; background-color:#00F}
+	#b{width:100px; height:100px; background-color:#C00}
+	#c{width:50px; height:50px; background-color:#FF0}
+	/* 设置滚动条的样式 */::-webkit-scrollbar {    width: 12px;}
+	/* 滚动槽 */::-webkit-scrollbar-track {    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);    border-radius: 10px;}
+	/* 滚动条滑块 */::-webkit-scrollbar-thumb {    border-radius: 10px;    background:#F00;    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);}::-webkit-scrollbar-thumb:window-inactive {    background: #0F0;}
+</style>
+
+<script> 
+  	function pageInitialize(){
+		TweenMax.set($("#b"),{x:100});
+		
+		TweenMax.set($("#a"),{x:200,y:300});
+		TweenMax.to($("#b"),2,{x:0});
+		
+		TweenMax.to($("#a"),2,{x:300,y:100});
+		//TweenMax.set();
+		setTimeout(aa,5000);
+		
+		function exportTableToCSV($table, filename) {
+
+        var $rows = $table.find('tr:has(td)'),
+
+            // Temporary delimiter characters unlikely to be typed by keyboard
+            // This is to avoid accidentally splitting the actual contents
+            tmpColDelim = String.fromCharCode(11), // vertical tab character
+            tmpRowDelim = String.fromCharCode(0), // null character
+
+            // actual delimiter characters for CSV format
+            colDelim = '","',
+            rowDelim = '"\r\n"',
+
+            // Grab text from table into CSV formatted string
+            csv = '"' + $rows.map(function (i, row) {
+                var $row = $(row),
+                    $cols = $row.find('td');
+
+                return $cols.map(function (j, col) {
+                    var $col = $(col),
+                        text = $col.text();
+
+                    return text.replace('"', '""'); // escape double quotes
+
+                }).get().join(tmpColDelim);
+
+            }).get().join(tmpRowDelim)
+                .split(tmpRowDelim).join(rowDelim)
+                .split(tmpColDelim).join(colDelim) + '"',
+
+            // Data URI
+            csvData = 'data:application/csv;charset=utf-8,' + encodeURIComponent(csv);
+			console.log(csvData);
+        $(this)
+            .attr({
+            'download': filename,
+                'href': csvData,
+                'target': '_blank'
+        });
+    }
+
+    // This must be a hyperlink
+    $(".export").on('click', function (event) {
+        // CSV
+        exportTableToCSV.apply(this, [$('#data'), 'export.csv']);
+        
+        // IF CSV, don't do event.preventDefault() or return false
+        // We actually need this to be a typical hyperlink
+    });
+	
+	
+	
+	function abc() {
+            var slider1 = new Slider();
+            slider1.Init();
+            ///屏幕大小发生改变时触发
+            $(window).resize(function () {
+                slider1.HanderIn();
+                slider1.HanderOut();
+            });
+        }
+
+        //滑动条对象
+        function Slider(swipestart, min, max, index, IsOk, lableIndex) {
+            var _self = this;
+            //是否开始滑动
+            _self.swipestart = swipestart;
+            //最小值
+            _self.min = min;
+            //最大值
+            _self.max = max;
+            //当前滑动条所处的位置
+            _self.index = index;
+            //是否滑动成功
+            _self.IsOk = IsOk;
+            //鼠标在滑动按钮的位置
+            _self.lableIndex = lableIndex;
+        }
+
+        //初始化
+        Slider.prototype.Init = function () {
+            var _self = this;
+            $("#label").on("mousedown", function (event) {
+                var e = event || window.event;
+                _self.lableIndex = e.clientX - this.offsetLeft;
+                _self.HanderIn();
+            });
+
+            $("#pageSlide").on("mousemove", function (event) {
+                _self.HanderMove(event);
+            });
+
+            $(document).on("mouseup", function (event) {
+                _self.HanderOut();
+            });
+
+
+            $("#label").on("touchstart", function (event) {
+                var e = event || window.event;
+                _self.lableIndex = e.originalEvent.pageX - this.offsetLeft;
+                _self.HanderIn();
+            });
+
+            $("#pageSlide").on("touchmove", function (event) {
+                _self.HanderMove(event, "mobile");
+            });
+
+            $(document).on("touchend", function (event) {
+                _self.HanderOut();
+            });
+        }
+
+        //鼠标/手指接触滑动按钮
+        Slider.prototype.HanderIn = function () {
+            var _self = this;
+            _self.swipestart = true;
+            _self.min = 0;
+            _self.max = $("#slider").width();
+        }
+
+        //鼠标/手指移出
+        Slider.prototype.HanderOut = function () {
+            var _self = this;
+            //停止
+            _self.swipestart = false;
+            _self.Move();
+        }
+
+        //鼠标/手指移动
+        Slider.prototype.HanderMove = function (event, type) {
+            var _self = this;
+            if (_self.swipestart) {
+                event.preventDefault();
+                var event = event || window.event;
+
+                if (type == "mobile") {
+                    _self.index = event.originalEvent.pageX - _self.lableIndex;
+                } else {
+                    _self.index = event.clientX - _self.lableIndex;
+                }
+                _self.Move();
+            }
+        }
+
+        //鼠标/手指移出
+        Slider.prototype.Move = function () {
+            var _self = this;
+            $(".warn").text("index:" + _self.index + "， max" + _self.max + ",lableIndex:" + _self.lableIndex + ",value:" + $("#captcha").val() + " date:" + new Date().getUTCDate());
+
+            if ((_self.index + 20) >= _self.max) {
+                _self.index = _self.max - 20;
+            }
+
+            if (_self.index < 0) {
+                _self.index = _self.min;
+            }
+            $(".label").css("left", _self.index + "px");
+            if (_self.index == (_self.max - 20)) {
+                //停止
+                _self.swipestart = false;
+                _self.IsOk = true;//解锁
+                $("#captcha").val(1);
+
+                var style = {"filter": "alpha(opacity=1)",
+                    "-moz-opacity": "1", "opacity": "1"}
+                $(".ui-btn.ui-input-btn.ui-corner-all.ui-shadow").css(style);
+
+                $("#slider").css("background-color", "#E5EE9F");
+                $("#lableTip").text("Thank You!");
+            } else {
+                _self.IsOk = false;//未解锁
+                $("#captcha").val(0);
+                var style = { "filter": "alpha(opacity=0.2)",
+                    "-moz-opacity": "0.2", "opacity": "0.2"}
+                $(".ui-btn.ui-input-btn.ui-corner-all.ui-shadow").css(style);
+                $("#slider").css("background-color", "#FDEB9C");
+                $("#lableTip").text("Slide to confirm I am human!");
+            }
+        }
+	
+	
+	
+	
+	
+	
+	var startX, startY, endX, endY;
+             var showADID = 1;
+            document.getElementById("divADBox").addEventListener("touchstart", touchStart, false);
+             document.getElementById("divADBox").addEventListener("touchmove", touchMove, false);
+             document.getElementById("divADBox").addEventListener("touchend", touchEnd, false);
+             function touchStart(event) {
+                 var touch = event.touches[0];
+                 startY = touch.pageY;
+                 startX = touch.pageX;
+             }
+             function touchMove(event) {
+                 var touch = event.touches[0];
+                 //endY = (startY - touch.pageY);
+                 endX = touch.pageX;
+             }
+             function touchEnd(event) {
+                 $("#img0" + showADID).hide();
+                showADID++;
+                 if (showADID > 4) {
+                     showADID = 1;
+                }
+                 if ((startX - endX) > 100) {
+                     $("#img0" + showADID).show();
+                 }
+                 $("#spText").html("X轴移动大小：" + (startX - endX));
+             }
+	
+	
+	}
+function aa(){
+	//TweenMax.set($("#a"),{x:400});
+	TweenMax.to($("#a"),6,{x:0});
+	}
+function bb(){
+TweenMax.set($("#b"),{x:100});
+TweenMax.to($("#b"),6,{x:300});
+}
+
+
+</script>
+
+</head>
+<body style="background-color:#FFF">
+	
+    <!--<div id="b" class="pull-air">
+    	<div id="a" style=" left:0px;" class="pull-air"></div>
+    </div>-->
+<table border="1" width="100%" id="data">
+　　<tr>
+　　 <td> 姓名</td>
+　　 <td colspan="2">年龄</td>
+　　 <td>出生日期</td>
+　　</tr>
+　　<tr>
+　　 <td>6</td>
+　　 <td>25</td>
+　　 <td colspan="2">8</td>
+　　</tr>
+　　<tr>
+　　 <td height="22">1</td>
+　　 <td height="22">2</td>
+　　 <td colspan="2" height="22">4</td>
+　　</tr>
+　　</table>
+<input type="button" name="out_excel" onclick="AutomateExcel();" value="导出到excel" class="notPrint">
+    <input value="导出" type="button" onclick="toExcel('data','')" />
+    <a href="#" class="export">点我</a>
+    <div style="width:300px; height:300px; overflow: scroll; ">
+     <div style="width:400px; height:400px;"></div>
+    </div>
+    <br>
+
+    
+    <div id="pageSlide">
+                        <input type="hidden" value="" id="captcha"/>
+
+                        <div id="slider" class="slider">
+                            <span id="label" class="label" style="width:20px; height:20px; display:block;"></span>
+                            <span id="lableTip">Slide to confirm I am human!</span>
+                        </div>
+                    </div>
+                    
+                    
+     <form id="form1">
+     <div style="border:solid 1px Red;" id="divADBox">
+     <span id="spText">X轴移动大小：0</span>
+         <img id="img01" src="/Content/Images/1.gif"  />
+         <img id="img02" src="/Content/Images/2.gif" style="display:none;" />
+         <img id="img03" src="/Content/Images/3.gif" style="display:none;" />
+         <img id="img04" src="/Content/Images/4.gif" style="display:none;" />
+     </div>
+     </form>
+</body>
+<script>
+
+</script>
+</html>

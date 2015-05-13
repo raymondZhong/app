@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=640px, user-scalable=no" />
+<meta name="format-detection" content="telephone=no"/>
+<title>demo_03</title>
+<link rel="stylesheet" type="text/css" href="Public/css/app.zebra.css">
+<link rel="stylesheet" type="text/css" href="Public/css/bosch.zebra.css">
+
+<script data-main="Public/lib/app.document" src="Public/lib/loader/require.js"></script>
+ 
+<style>
+	 
+</style>
+
+
+</head>
+<body style="background-color:#FFF">
+	  <div id="a" class="text-32">
+      </div>
+      
+      <div id="b" style="position:absolute;top:50px;left:200px;width:200px;height:200px; background:blue"></div>
+</body>
+
+<script> 
+
+  	function pageInitialize(){
+		  app.screen.startShark();
+		  app.screen.addEventListener(Screen.Shark,function(e){
+			       alert("摇动了");
+				   //app.screen.stopShark();
+			 })
+		  //app.screen.stopShark();	 
+		  //app.screen.pauseShark();
+			 
+			 
+			 
+		  app.screen.startMotion();
+		  
+		  var left=$("#b").offset().left;
+		  
+		  app.screen.addEventListener(Screen.Motion,function(e){
+				    $("#a").html(e.data.x+"<br/>"+left);
+				     if(e.data.x<-1){ 
+								left -=30  
+							    TweenMax.killTweensOf($("#b"))
+							    TweenMax.to($("#b"),0.5,{x:left})
+					   }else if(e.data.x>1){
+								 left +=30  
+							     TweenMax.killTweensOf($("#b"))
+					    		 TweenMax.to($("#b"),0.5,{x:left})
+					   }
+				   
+			  })
+			  
+			/* setTimeout(function(){
+				 alert("暂停屏幕倾斜监听")
+				 app.screen.pauseMotion();
+				 },5000)*/
+	}
+ 
+   
+ 
+  
+</script>
+</html>

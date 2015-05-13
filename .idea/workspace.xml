@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a9308d77-fd3f-43a8-a335-bf16bdb36fbc" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/test/bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/css/fancybox/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/tableExport/test/icons/csv.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/css/fancybox/fancybox_loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/css/fancybox/fancybox_loading@2x.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/css/fancybox/fancybox_overlay.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/css/fancybox/fancybox_sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/css/fancybox/fancybox_sprite@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/test/feiji.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/semanticui/themes/default/assets/images/flags.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/semanticui/themes/basic/assets/fonts/icons.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/semanticui/themes/default/assets/fonts/icons.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/semanticui/themes/default/assets/fonts/icons.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/semanticui/themes/basic/assets/fonts/icons.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/semanticui/themes/default/assets/fonts/icons.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/semanticui/themes/default/assets/fonts/icons.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/semanticui/themes/basic/assets/fonts/icons.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/semanticui/themes/default/assets/fonts/icons.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/tableExport/test/icons/json.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/images/test/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/tableExport/test/icons/pdf.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/tableExport/test/icons/png.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/tableExport/test/icons/sql.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/tableExport/test/icons/txt.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/tableExport/test/icons/word.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/tableExport/test/icons/xls.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/tableExport/test/icons/xml.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/system/404.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/system/404_1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/greensock/plugins/AttrPlugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/greensock/plugins/BezierPlugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/greensock/plugins/CSSPlugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/greensock/plugins/CSSRulePlugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/greensock/plugins/ColorPropsPlugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/other/DDPngMin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/greensock/plugins/DirectionalRotationPlugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/greensock/utils/Draggable.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/greensock/easing/EasePack.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/greensock/plugins/EaselPlugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/greensock/plugins/EndArrayPlugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/core/EventDispatcher.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/tableExport/FileSaver/FileSaver.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/tableExport/FileSaver/FileSaver.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/greensock/plugins/KineticPlugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/loader/LAB.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/loader/pxloader/PxLoader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/loader/pxloader/PxLoaderImage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/loader/pxloader/PxLoaderSound.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/loader/pxloader/PxLoaderVideo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/greensock/plugins/RaphaelPlugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/greensock/plugins/RoundPropsPlugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/greensock/plugins/ScrollToPlugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/greensock/plugins/TextPlugin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/greensock/TimelineLite.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/greensock/TimelineMax.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/greensock/TweenLite.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/greensock/TweenMax.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/css/animate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/css/animate/animate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/app.document.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/app.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/css/app.zebra.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/app/app.zebra.js.bak" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/app/app.zebra.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/task/async.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/backbone/backbone-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/app/canvas.zebra.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/other/classie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/other/css-filters-polyfill.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/other/cssParser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/css/animate/csshake.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/jquery/plus/date/lang/datepicker.en-UK.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/jquery/plus/date/lang/datepicker.en-US.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/jquery/plus/date/datepicker.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/jquery/plus/date/datepicker.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/jquery/plus/date/lang/datepicker.zh-CN.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/util/datetimehelper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo03.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/createJS/easeljs-0.8.0.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/createJS/easeljs-NEXT.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/effect/flutter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/graphics/canvas/graffiti.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/touch/hammer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/other/holder.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/other/html2canvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/tableExport/html2canvas/html2canvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/graphics/canvas/html2canvas.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/tableExport/html2canvas/html2canvas.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/core/html5shiv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/semanticui/themes/basic/assets/fonts/icons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/semanticui/themes/default/assets/fonts/icons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/touch/idangerous.swiper.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/touch/idangerous.swiper.scrollbar-2.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/loader/in-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/tableExport/test/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/touch/iscroll/iscroll-infinite.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/touch/iscroll/iscroll-lite.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/touch/iscroll/iscroll-probe.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/touch/iscroll/iscroll-zoom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/touch/iscroll/iscroll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/jquery/plus/jQueryRotateCompressed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/graphics/bitmap/jpeg_encoder_basic.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/graphics/bitmap/jpegmeta.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/jquery/plus/jquery.base64.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/jquery/plus/jquery.cookie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/jquery/plus/jquery.corner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/jquery/plus/jquery.db.0.1.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/jquery/plus/jquery.easing.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/jquery/plus/jquery.eraser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/jquery/plus/jquery.event.drag-2.2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/jquery/plus/jquery.event.drag.live-2.2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/jquery/plus/jquery.event.drop-2.2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/jquery/plus/jquery.event.drop.live-2.2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/jquery/plus/jquery.ez-bg-resize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/jquery/plus/jquery.facedetection.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/css/fancybox/jquery.fancybox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/jquery/plus/jquery.fancybox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/greensock/jquery.gsap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/touch/jquery.hammer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/jquery/plus/jquery.imagesloaded.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/jquery/plus/wookmark/jquery.magnific-popup.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/jquery/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/jquery/jquery.min.sea.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/jquery/plus/jquery.mousewheel-3.0.6.pack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/objectdetect/jquery.objectdetect.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/jquery/plus/jquery.storageapi.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/touch/jquery.touchSwipe.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/jquery/plus/jquery.transit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/jquery/plus/jquery.transit.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/jquery/plus/jquery.transit.min.sea.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/jquery/plus/wookmark/jquery.wookmark.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/jquery/jquery.zebra.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/jquery/jquery.zebra.sea.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/collection/jquery.zebra.tree.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/core/json2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/tableExport/jsPDF/jspdf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/tableExport/jsPDF/jspdf.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/tableExport/jsPDF/jspdf.plugin.addhtml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/tableExport/jsPDF/jspdf.plugin.addimage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/platform/jweixin-1.0.0.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/css/wookmark/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/graphics/bitmap/megapix-image.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/motion.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/createJS/movieclip-0.8.0.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/createJS/movieclip-NEXT.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/oop/my.class.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/objectdetect/objectdetect.eye.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/objectdetect/objectdetect.frontalface.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/objectdetect/objectdetect.handfist.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/objectdetect/objectdetect.handopen.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/objectdetect/objectdetect.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/objectdetect/objectdetect.mouth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/objectdetect/objectdetect.profileface.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/objectdetect/objectdetect.upperbody.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/css/wookmark/overview.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/css/page.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/oneword/pagecontent.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/oneword/pagecontent2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/oneword/pagecontent2_1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/app/pageloader.zebra.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/app/pageloader2.zebra.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/app/pageparse.zebra.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/app/pagepull.zebra.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/app/pagexloader.zebra.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/loader/pxloader/pxloader.externs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/effect/rainyday.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/effect/rainyday.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/app/recordpull.zebra.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/loader/require.css.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/loader/require.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/css/wookmark/reset.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/core/respond.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/app/screen.zebra.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/loader/sea.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/semanticui/semantic.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/semanticui/semantic.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/module/shirt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/css/starhome.zebra.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/core/store.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/css/sui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/touch/swipe.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/touch/swiper.jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/touch/swiper.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/table.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/tableExport/tableExport.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/oop/test.class.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/touch/touchbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/touch/touchbox.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/graphics/tween/tween.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/backbone/underscore-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/jquery/plus/validate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/app/weixin.zebra.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/platform/wp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/css/zebra-css.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/lib/platform/zebra.weixin.js" />
+    </list>
+    <ignored path="app.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="app" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="app.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.76143384" vertical-offset="0" max-vertical-offset="902">
+              <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="true" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="raymond.zhong" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1696" />
+    <option name="height" value="1026" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Tests" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Tests" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="name" value="Dart" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a9308d77-fd3f-43a8-a335-bf16bdb36fbc" name="Default" comment="" />
+      <created>1431491473065</created>
+      <updated>1431491473065</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35063437" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298731" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298731" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298731" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15611814" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298731" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35409456" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Public/lib/jquery/jquery.zebra.sea.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57462686" vertical-offset="0" max-vertical-offset="5632">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding>
+            <marker date="1429518135192" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/lib/app.document.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26666668" vertical-offset="1954" max-vertical-offset="3718">
+          <caret line="99" column="20" selection-start-line="99" selection-start-column="20" selection-end-line="99" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.76143384" vertical-offset="0" max-vertical-offset="902">
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
